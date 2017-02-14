@@ -1,0 +1,4 @@
+1. Unzip the compressed file into a folder.
+2. Inside the folder, open CLI, run make all.
+3. make run to execute my_shell.
+4. make clean to remove my_shell.
