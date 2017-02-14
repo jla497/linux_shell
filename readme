@@ -2,3 +2,19 @@
 2. Inside the folder, open CLI, run make all.
 3. make run to execute my_shell.
 4. make clean to remove my_shell.
+
+
+The shell will interpret the following internal commands:
+
+exit: exit shell
+pwd: gives your current working directory
+history: returns previous 10 commands
+cd <path>: changes directory to <path>
+
+The shell will interpret most external linux commands. 
+The shell will also perform piping multiple commands:
+
+i.e.  ping google.com|grep -i bytes
+
+ping passes data stream to grep which parses string stream containing the word 'bytes'.
+
